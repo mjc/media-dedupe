@@ -1,3 +1,8 @@
+mod cli;
+
+
+
 fn main() {
-    println!("Hello, world!");
+    let cli = cli::parse();
+    println!("Dry run: {:?}, path: {:?}", cli.dry_run(), cli.path());
 }
