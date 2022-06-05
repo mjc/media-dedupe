@@ -9,3 +9,4 @@ edition = "2021"
 clap = { version = "3.0", features = ["derive"] }
 camino = "1.0"
 trycmd = "0.13"
+walkdir = "2"

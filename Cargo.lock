@@ -286,6 +286,7 @@ dependencies = [
  "camino",
  "clap",
  "trycmd",
+ "walkdir",
 ]
 
 [[package]]

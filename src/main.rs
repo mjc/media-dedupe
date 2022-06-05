@@ -1,6 +1,5 @@
 mod cli;
-
-
+mod locate;
 
 fn main() {
     let cli = cli::parse();

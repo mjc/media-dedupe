@@ -1,4 +1,3 @@
-
 use camino::Utf8PathBuf;
 use clap::Parser;
 
@@ -11,8 +10,6 @@ pub struct Cli {
 }
 
 impl Cli {
-    
-
     pub fn dry_run(&self) -> bool {
         self.dry_run
     }
@@ -21,8 +18,6 @@ impl Cli {
         self.path.as_ref()
     }
 }
-
-
 
 pub fn parse() -> Cli {
     Cli::parse()
